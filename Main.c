@@ -17,8 +17,7 @@ int minus (int a, int b) {
 } //Guitar
 
 int plus (int a,int b) {
-    a + b;
-    return a + b;
+    
 } //Kafe
 
 int calculate(int a,char op,int b) {
