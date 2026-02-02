@@ -1,7 +1,8 @@
 #include <stdio.h>
 
-int Persen () {
-
+int Persen (int a, int b) {
+    a % b;
+    return a % b;
 } //minny
 
 int divide () {
@@ -32,10 +33,10 @@ int calculate(int a,char op,int b) {
     // } else if (op == '*') {
     //     total = multiply(a,b);
     // } else if (op == '/') {
-    //     total = divide(a,b);
-    // } else {
-    //     total = Persen(a,b);
-    // }
+    //     total = divide(a,b);}
+     else {
+        total = Persen(a,b);
+    }
 
     //ใครทำส่วนไหนเเล้วก็ให้เอาเครื่องหมายคอมเม้นออกในส่วนของตัวเองไม่งั้นโค้ดรันไม่ได้
 
