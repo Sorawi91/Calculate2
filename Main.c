@@ -1,7 +1,8 @@
 #include <stdio.h>
 
-int Persen () {
-
+int Persen (int a, int b) {
+    a % b;
+    return a % b;
 } //minny
 
 int divide () {
