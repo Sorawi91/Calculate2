@@ -4,9 +4,9 @@ int Persen () {
 
 } //minny
 
-int divide () {
-
-} //wut
+int divide (int a, int b) { 
+return (b != 0) ? a / b : 0; 
+}
 
 int multiply () {
 
