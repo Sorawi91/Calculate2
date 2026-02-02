@@ -13,11 +13,6 @@ int multiply (int a, int b) {
     return a * b;
 }
 
-int minus (int a, int b) {
-    a - b ;
-    return a - b;
-} //Guitar
-
 int plus (int a,int b) {
     a + b;
     return a + b;
