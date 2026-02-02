@@ -1,39 +1,41 @@
 #include <stdio.h>
 
-int Persen () {
-
+int Persen (int a, int b) {
+    a % b;
+    return a % b;
 } //minny
 
-int divide () {
+int divide (int a, int b) { 
+return (b != 0) ? a / b : 0; 
+}
 
-} //wut
-
-int multiply () {
-
-} //Pum
+int multiply (int a, int b) {
+    return a * b;
+}
 
 int minus (int a, int b) {
-
+    a - b ;
+    return a - b;
 } //Guitar
 
 int plus (int a,int b) {
-    
+    a + b;
+    return a + b;
 } //Kafe
 
 int calculate(int a,char op,int b) {
     int total;
     if (op == '+') {
         total = plus(a,b);
-    } 
-    // else if (op == '-') {
-    //     total = minus(a,b);
-    // } else if (op == '*') {
-    //     total = multiply(a,b);
-    // } else if (op == '/') {
-    //     total = divide(a,b);
-    // } else {
-    //     total = Persen(a,b);
-    // }
+    } else if (op == '-') {
+        total = minus(a,b);
+    } else if (op == '*') {
+        total = multiply(a,b);
+    } else if (op == '/') {
+        total = divide(a,b);}
+     else {
+        total = Persen(a,b);
+    }
 
     //ใครทำส่วนไหนเเล้วก็ให้เอาเครื่องหมายคอมเม้นออกในส่วนของตัวเองไม่งั้นโค้ดรันไม่ได้
 
