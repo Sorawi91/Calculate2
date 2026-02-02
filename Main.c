@@ -30,9 +30,9 @@ int calculate(int a,char op,int b) {
     //     total = minus(a,b);
     // } else if (op == '*') {
     //     total = multiply(a,b);
-    // } else if (op == '/') {
-    //     total = divide(a,b);
-    // } else {
+     else if (op == '/') {
+        total = divide(a,b);
+    } else {
     //     total = Persen(a,b);
     // }
 
