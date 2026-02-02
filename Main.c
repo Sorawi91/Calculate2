@@ -32,7 +32,7 @@ int calculate(int a,char op,int b) {
     //     total = multiply(a,b);
      else if (op == '/') {
         total = divide(a,b);
-    } else {
+    } else 
     //     total = Persen(a,b);
     // }
 
