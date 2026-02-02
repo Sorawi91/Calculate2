@@ -5,9 +5,9 @@ int Persen (int a, int b) {
     return a % b;
 } //minny
 
-int divide () {
-
-} //wut
+int divide (int a, int b) { 
+return (b != 0) ? a / b : 0; 
+}
 
 int multiply (int a, int b) {
     return a * b;
