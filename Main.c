@@ -9,9 +9,9 @@ int divide () {
 
 } //wut
 
-int multiply () {
-
-} //Pum
+int multiply (int a, int b) {
+    return a * b;
+}
 
 int minus (int a, int b) {
     a - b ;
@@ -27,11 +27,12 @@ int calculate(int a,char op,int b) {
     int total;
     if (op == '+') {
         total = plus(a,b);
-    } else if (op == '-') {
-        total = minus(a,b);
+    } 
+    // else if (op == '-') {
+    //     total = minus(a,b);
+     else if (op == '*') {
+        total = multiply(a,b);
     }
-    // } else if (op == '*') {
-    //     total = multiply(a,b);
     // } else if (op == '/') {
     //     total = divide(a,b);}
      else {
