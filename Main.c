@@ -26,9 +26,9 @@ int calculate(int a,char op,int b) {
     int total;
     if (op == '+') {
         total = plus(a,b);
-    } 
-    // else if (op == '-') {
-    //     total = minus(a,b);
+    } else if (op == '-') {
+        total = minus(a,b);
+    }
     // } else if (op == '*') {
     //     total = multiply(a,b);
     // } else if (op == '/') {
